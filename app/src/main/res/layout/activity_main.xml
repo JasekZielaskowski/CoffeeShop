@@ -10,23 +10,34 @@
         android:id="@+id/happybirthday_textview"
         android:layout_width="match_parent"
         android:layout_height="267dp"
+        android:layout_alignBaseline="@id/background_image"
         android:text="Welcome to Jasek's Coffee Shop"
-        android:textSize="35dp"
-        android:textColor="@android:color/background_dark"/>
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
 
     <TextView
-        android:id="@+id/fromtextview"
+        android:id="@+id/Captextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="From da big Clix"
+        android:text="Cappuccino-5$"
         android:textSize="25dp"
         android:textColor="@android:color/background_dark"/>
 
+    <TextView
+        android:id="@+id/Lattetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:text="Latte-5$"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
+    
     <ImageView
         android:id="@+id/background_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/coffee"
-        android:fadeScrollbars="true"/>
+        android:fadeScrollbars="true"
+        android:src="@drawable/coffee" />
 </RelativeLayout>
