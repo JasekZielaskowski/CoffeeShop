@@ -10,7 +10,7 @@
         android:id="@+id/happybirthday_textview"
         android:layout_width="match_parent"
         android:layout_height="267dp"
-        android:text="You are invited to this very cool fortnite event ya walking 50 pot, see ya later floppa"
+        android:text="Welcome to Jasek's Coffee Shop"
         android:textSize="35dp"
         android:textColor="@android:color/background_dark"/>
 
