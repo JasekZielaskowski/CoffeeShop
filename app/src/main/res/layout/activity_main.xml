@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- tools:context=".MainActivity"> -->
+
+    <TextView
+        android:id="@+id/happybirthday_textview"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:text="You are invited to this very cool fortnite event ya walking 50 pot, see ya later floppa"
+        android:textSize="35dp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/fromtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="From da big Clix"
+        android:textSize="25dp"
+        android:textColor="@android:color/background_dark"/>
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coffee"
+        android:fadeScrollbars="true"/>
+</RelativeLayout>
