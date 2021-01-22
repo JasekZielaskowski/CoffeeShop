@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="267dp"
         android:layout_alignBaseline="@id/background_image"
-        android:text="Jasek's Coffee Shop, open 5-10am Friday-Sunday. Contact 02jasek.zielaskowski@gulllakecs.org"
+        android:text="Jasek's Coffee Shop, open 5-10am Friday-Sunday. Contact 02jasek.zielaskowski@gulllakecs.org for more."
         android:textColor="@android:color/background_dark"
         android:textSize="25dp" />
 
