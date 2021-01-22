@@ -22,7 +22,9 @@
         android:layout_alignBaseline="@id/background_image"
         android:text="Jasek's Coffee Shop"
         android:textColor="@android:color/background_dark"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"/>
 
     <TextView
         android:id="@+id/openTime"
@@ -31,7 +33,9 @@
         android:layout_below="@id/otheropenTime"
         android:text="Open 5-10am Friday-Sunday."
         android:textColor="@android:color/background_dark"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"/>
     <TextView
         android:id="@+id/contactInfo"
         android:layout_width="wrap_content"
@@ -39,7 +43,9 @@
         android:layout_below="@id/openTime"
         android:text="Contact me at 02jasek.zielaskowski@gulllakecs.org."
         android:textColor="@android:color/background_dark"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"/>
 
     <TextView
         android:id="@+id/Captextview"
@@ -48,7 +54,9 @@
         android:layout_alignParentBottom="true"
         android:text="Cappuccino-$5"
         android:textSize="25dp"
-        android:textColor="@android:color/background_dark"/>
+        android:textColor="@android:color/background_dark"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"/>
 
     <TextView
         android:id="@+id/Lattetextview"
@@ -58,6 +66,8 @@
         android:layout_marginBottom="35dp"
         android:text="Latte-$5"
         android:textColor="@android:color/background_dark"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"/>
 
 </RelativeLayout>
