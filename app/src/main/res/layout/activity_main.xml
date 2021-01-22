@@ -6,12 +6,30 @@
     android:layout_height="match_parent">
     <!-- tools:context=".MainActivity"> -->
 
-    <TextView
-        android:id="@+id/happybirthday_textview"
+    <ImageView
+        android:id="@+id/background_image"
         android:layout_width="match_parent"
-        android:layout_height="267dp"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/coffee" />
+
+    <TextView
+        android:id="@+id/otheropenTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/background_image"
-        android:text="Jasek's Coffee Shop, open 5-10am Friday-Sunday. Contact 02jasek.zielaskowski@gulllakecs.org for more."
+        android:text="Jasek's Coffee Shop"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/openTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otheropenTime"
+        android:text="Open 5-10am Friday-Sunday."
         android:textColor="@android:color/background_dark"
         android:textSize="25dp" />
 
@@ -34,12 +52,4 @@
         android:textColor="@android:color/background_dark"
         android:textSize="25dp" />
 
-    <ImageView
-        android:id="@+id/background_image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fadeScrollbars="true"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:src="@drawable/coffee" />
 </RelativeLayout>
