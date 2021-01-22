@@ -32,6 +32,14 @@
         android:text="Open 5-10am Friday-Sunday."
         android:textColor="@android:color/background_dark"
         android:textSize="25dp" />
+    <TextView
+        android:id="@+id/contactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openTime"
+        android:text="Contact me at 02jasek.zielaskowski@gulllakecs.org."
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/Captextview"
